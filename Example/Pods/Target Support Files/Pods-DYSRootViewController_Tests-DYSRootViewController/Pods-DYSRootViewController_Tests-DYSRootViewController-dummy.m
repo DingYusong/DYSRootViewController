@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_DYSRootViewController_Tests_DYSRootViewController : NSObject
+@end
+@implementation PodsDummy_Pods_DYSRootViewController_Tests_DYSRootViewController
+@end

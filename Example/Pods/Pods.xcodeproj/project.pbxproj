@@ -1,0 +1,1243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC07F039708AE6C01DD02C5 /* Pods-DYSRootViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AF96E97D71524C148F61CA /* Pods-DYSRootViewController_Example-dummy.m */; };
+		0CA431063665FA8AD8B492F6 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B155B57AC949A0FC13C5F6 /* FBSnapshotTestCase.m */; };
+		136A645475D1C662E748D730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25A0E11E5D4344DC92C4E12 /* Foundation.framework */; };
+		142D4A540FA8D39047D6DB10 /* Pods-DYSRootViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EDE8403BCBBD47EF52A1740 /* Pods-DYSRootViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27521FB28F53058B57C9BDD4 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA5B4CF73D2EAD09C788EAA /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D489D9961203CBDCA151626 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6D6601F81AD72C8FA0C7E4 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		317468D071CA7D9D37CA944B /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB4C7F465FD384833B195A /* SwiftSupport.swift */; };
+		366F0EAA7F2E5874D983EAB5 /* DYSRootViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50E9021B15AC4C199CC6282F /* DYSRootViewController.bundle */; };
+		40D2E21629583F4416AEB8BB /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A1B65B56C918153320B53C /* FBSnapshotTestCasePlatform.m */; };
+		45C18628CD81AE9EBCD1EFE1 /* Pods-DYSRootViewController_Example-DYSRootViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E872AEABA73AF987934711D /* Pods-DYSRootViewController_Example-DYSRootViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E41A28D221260A65DC551B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25A0E11E5D4344DC92C4E12 /* Foundation.framework */; };
+		5AEACDF1E5E3B1FE951446CC /* Pods-DYSRootViewController_Example-DYSRootViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8DACD706215EF45C7DFB55 /* Pods-DYSRootViewController_Example-DYSRootViewController-dummy.m */; };
+		5FCFD98824A630DB4184CBD9 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5FF4A0799F6AB2C19F3D7B /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FBA7F4066DD352CBB993E53 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC8351E108385D1E56B73C /* FBSnapshotTestController.m */; };
+		71C16D0929D8A371A9E90E1A /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4E9C43BFAEFDD206DC4DCD /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7927CCE88C743C3A9CE9A4C4 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B68BD8D42297B0E81B06A /* UIImage+Snapshot.m */; };
+		7C02C7CF444F1E21BF9531D0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B02BFF848F2822C91890DB0 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D21E2F8A28E24FBE83E3905 /* Pods-DYSRootViewController_Tests-DYSRootViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E39359F74EB55BDA7A2D5C /* Pods-DYSRootViewController_Tests-DYSRootViewController-dummy.m */; };
+		822D0856875C2AF434F18F1C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7926ABDB0FB321205F2AB3C9 /* ReplaceMe.m */; };
+		94DF6DF8DE768AF2A431BCAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25A0E11E5D4344DC92C4E12 /* Foundation.framework */; };
+		A552795C5C37AEC9DD9B0D69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25A0E11E5D4344DC92C4E12 /* Foundation.framework */; };
+		A97F61B7FCC28C07A7EF6B01 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 13013A585EAADF87E7D65A59 /* UIImage+Diff.m */; };
+		ADCD7A7AD4D2BBA42C029400 /* Pods-DYSRootViewController_Tests-DYSRootViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF88D4B1333D2D5F62AB2B35 /* Pods-DYSRootViewController_Tests-DYSRootViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6DA875090712F9C2294C362 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1B85D89C16E443E5B0FC3D /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B454712234EB55041BB3E0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7926ABDB0FB321205F2AB3C9 /* ReplaceMe.m */; };
+		B84D545102E84B8673E86C4D /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B9179DD96B8472AEA1F647 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C24F10F38180529B74A98834 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D09FA965F3049E3B76CE8321 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-dummy.m */; };
+		C34CB3CF4ADB0CD8103BCAC5 /* DYSRootViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E985DA2E3B760EBD5E098E9D /* DYSRootViewController.bundle */; };
+		CACC6DA1AC52A5BAC9CB7B8D /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 537CCCB6C2709E37838A94DB /* UIImage+Compare.m */; };
+		CB330AD16F3C951DA65E4C21 /* Pods-DYSRootViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2702F627EF97EB26B87FFCC1 /* Pods-DYSRootViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E87EE321654926FC641696AF /* Pods-DYSRootViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D08490F24DB97938B0395B /* Pods-DYSRootViewController_Tests-dummy.m */; };
+		F9070300675076037BD7D630 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636538FEFD18FF5EB3056502 /* XCTest.framework */; };
+		FB70A9F664BD6AC0D3CDA3B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25A0E11E5D4344DC92C4E12 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		062015F2A13791CC11965823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADD7733C23AAC2B74DF7F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AA3DD8FBDF149605E12E6E2;
+			remoteInfo = "Pods-DYSRootViewController_Tests-DYSRootViewController-DYSRootViewController";
+		};
+		246F53CB5CCB4DCBD1C3D4F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADD7733C23AAC2B74DF7F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1878C27803550BA781808114;
+			remoteInfo = "Pods-DYSRootViewController_Tests-DYSRootViewController";
+		};
+		664888840BB5BBF1C204D4AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADD7733C23AAC2B74DF7F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A5E149DAB4263F2AF642B2;
+			remoteInfo = "Pods-DYSRootViewController_Example-DYSRootViewController-DYSRootViewController";
+		};
+		6CB1CE70DBFEC6C95A460C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADD7733C23AAC2B74DF7F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CBDC381867D2F7EF080F36;
+			remoteInfo = "Pods-DYSRootViewController_Example-DYSRootViewController";
+		};
+		DA5C689E3C3D8591A93D92D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADD7733C23AAC2B74DF7F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17D8F29E9B2031233E6BB1E;
+			remoteInfo = "Pods-DYSRootViewController_Tests-FBSnapshotTestCase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CCAE64327E20E1984900742 /* Pods-DYSRootViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYSRootViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		13013A585EAADF87E7D65A59 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		195F8C14A753DFAF7D4F1508 /* Pods-DYSRootViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYSRootViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C2398240F9E4EF3F2CDDFCF /* Pods-DYSRootViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYSRootViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1CF0AC601DE4CE00DFFA77B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E872AEABA73AF987934711D /* Pods-DYSRootViewController_Example-DYSRootViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSRootViewController_Example-DYSRootViewController-umbrella.h"; sourceTree = "<group>"; };
+		1EDE8403BCBBD47EF52A1740 /* Pods-DYSRootViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSRootViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2382C3D5C1689F7E20619EB0 /* Pods-DYSRootViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSRootViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2702F627EF97EB26B87FFCC1 /* Pods-DYSRootViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSRootViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		2888212F7A2007FFE6083109 /* Pods-DYSRootViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYSRootViewController_Example.modulemap"; sourceTree = "<group>"; };
+		2A4C3EEE5E50FF8A62C7B344 /* Pods-DYSRootViewController_Example-DYSRootViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSRootViewController_Example-DYSRootViewController.xcconfig"; sourceTree = "<group>"; };
+		2A4E9C43BFAEFDD206DC4DCD /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		2C072574EB8770A0E27C78F3 /* Pods-DYSRootViewController_Tests-DYSRootViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYSRootViewController_Tests-DYSRootViewController-Private.xcconfig"; path = "../Pods-DYSRootViewController_Tests-DYSRootViewController/Pods-DYSRootViewController_Tests-DYSRootViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		304383681F590619965DC5B1 /* Pods-DYSRootViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYSRootViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		35AF8CD2753CE6FB51BCD05C /* Pods-DYSRootViewController_Tests-DYSRootViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DYSRootViewController_Tests-DYSRootViewController-prefix.pch"; path = "../Pods-DYSRootViewController_Tests-DYSRootViewController/Pods-DYSRootViewController_Tests-DYSRootViewController-prefix.pch"; sourceTree = "<group>"; };
+		35BEF23D430C58BBF6F65E67 /* Pods-DYSRootViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYSRootViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35F2411AE3898DBBEA77DBEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F9B9F4210525F9988F2FCC /* Pods-DYSRootViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYSRootViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B9E053E7F202AEF8AAD5FFD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D5FF4A0799F6AB2C19F3D7B /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		482C118D56964298D92055DD /* Pods_DYSRootViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYSRootViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8BF70F231A5F83255FAB22 /* Pods-DYSRootViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYSRootViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		4C6D6601F81AD72C8FA0C7E4 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSRootViewController_Tests-FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		50B155B57AC949A0FC13C5F6 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		50E9021B15AC4C199CC6282F /* DYSRootViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYSRootViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		537CCCB6C2709E37838A94DB /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		5396AA7A9FBE5171DBF106C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5622F18862115224EB0FD119 /* DYSRootViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYSRootViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD74E5C53EC4B68FE4EB124 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSRootViewController_Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		636538FEFD18FF5EB3056502 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		67C9B1F6C93A35B38BA88436 /* Pods-DYSRootViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSRootViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		754E84E4B9C5E38F6AD446A8 /* DYSRootViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYSRootViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		765546FB89E86F54258CAF77 /* Pods-DYSRootViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYSRootViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		77AF96E97D71524C148F61CA /* Pods-DYSRootViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYSRootViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		7926ABDB0FB321205F2AB3C9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		7AC3033169E251D551B72D2B /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSRootViewController_Tests-FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		7CA5B4CF73D2EAD09C788EAA /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		801D50EF67A207154912A5B2 /* Pods-DYSRootViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSRootViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8711970544A6FB0F219F6029 /* Pods-DYSRootViewController_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSRootViewController_Tests-environment.h"; sourceTree = "<group>"; };
+		871797041E7F36A5B2B070DD /* Pods_DYSRootViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYSRootViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D08490F24DB97938B0395B /* Pods-DYSRootViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYSRootViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		891C0ABBED7F7B5E4AB1C367 /* Pods-DYSRootViewController_Example-DYSRootViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSRootViewController_Example-DYSRootViewController-prefix.pch"; sourceTree = "<group>"; };
+		8B02BFF848F2822C91890DB0 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		8EDC8351E108385D1E56B73C /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		91D06FEF6168DF2A20876745 /* Pods-DYSRootViewController_Tests-DYSRootViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-DYSRootViewController_Tests-DYSRootViewController.modulemap"; path = "../Pods-DYSRootViewController_Tests-DYSRootViewController/Pods-DYSRootViewController_Tests-DYSRootViewController.modulemap"; sourceTree = "<group>"; };
+		94D9F3F00F703E4D1FD680E5 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYSRootViewController_Tests-FBSnapshotTestCase.modulemap"; sourceTree = "<group>"; };
+		9A6B68BD8D42297B0E81B06A /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		9B8DACD706215EF45C7DFB55 /* Pods-DYSRootViewController_Example-DYSRootViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYSRootViewController_Example-DYSRootViewController-dummy.m"; sourceTree = "<group>"; };
+		B5A1B65B56C918153320B53C /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		B5B9179DD96B8472AEA1F647 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		B70E0BD44692B81DD20E0C7C /* Pods-DYSRootViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSRootViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA456105557CA9370FFA8076 /* Pods-DYSRootViewController_Example-DYSRootViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYSRootViewController_Example-DYSRootViewController.modulemap"; sourceTree = "<group>"; };
+		BAA77375BCB4157A87BEBF3D /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSRootViewController_Tests-FBSnapshotTestCase.xcconfig"; sourceTree = "<group>"; };
+		BDAB5A96327B8CD7FEFA5619 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-DYSRootViewController_Tests-DYSRootViewController/Info.plist"; sourceTree = "<group>"; };
+		C0EB9CB0BFE7BEC9131FAC54 /* Pods-DYSRootViewController_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSRootViewController_Example-environment.h"; sourceTree = "<group>"; };
+		D09FA965F3049E3B76CE8321 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYSRootViewController_Tests-FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		D53701734AD66D4217CF2387 /* Pods-DYSRootViewController_Tests-DYSRootViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYSRootViewController_Tests-DYSRootViewController.xcconfig"; path = "../Pods-DYSRootViewController_Tests-DYSRootViewController/Pods-DYSRootViewController_Tests-DYSRootViewController.xcconfig"; sourceTree = "<group>"; };
+		D76D8FC137EE1D1711FA1BE4 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E39359F74EB55BDA7A2D5C /* Pods-DYSRootViewController_Tests-DYSRootViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-DYSRootViewController_Tests-DYSRootViewController-dummy.m"; path = "../Pods-DYSRootViewController_Tests-DYSRootViewController/Pods-DYSRootViewController_Tests-DYSRootViewController-dummy.m"; sourceTree = "<group>"; };
+		E985DA2E3B760EBD5E098E9D /* DYSRootViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYSRootViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC545BA6969A6225A5D0E2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1B85D89C16E443E5B0FC3D /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		F068D522B22A2E70B9210480 /* Pods-DYSRootViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYSRootViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F25A0E11E5D4344DC92C4E12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F5BF3383259A4C4BFD98E318 /* Pods-DYSRootViewController_Example-DYSRootViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSRootViewController_Example-DYSRootViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		F7CB4C7F465FD384833B195A /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		FF88D4B1333D2D5F62AB2B35 /* Pods-DYSRootViewController_Tests-DYSRootViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DYSRootViewController_Tests-DYSRootViewController-umbrella.h"; path = "../Pods-DYSRootViewController_Tests-DYSRootViewController/Pods-DYSRootViewController_Tests-DYSRootViewController-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FE415D2C28734E263AE251F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3565B7F59757AB415F3457B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DF6DF8DE768AF2A431BCAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCE6699D10B5BD5A1534C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E41A28D221260A65DC551B7 /* Foundation.framework in Frameworks */,
+				F9070300675076037BD7D630 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9363B5E4CE2997C10B9100C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A552795C5C37AEC9DD9B0D69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C245E0B03251B03B2B45FEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB70A9F664BD6AC0D3CDA3B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C548AA66A76D9064FD022D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66683FDD120249D53DAB033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136A645475D1C662E748D730 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0527DBDFC962D67EBBE8BC50 = {
+			isa = PBXGroup;
+			children = (
+				3B9E053E7F202AEF8AAD5FFD /* Podfile */,
+				5D7180784BE4F7CE4320C771 /* Development Pods */,
+				AD32E20101CCA2C26E8281F9 /* Frameworks */,
+				91E401E0A992394684FB7AE1 /* Pods */,
+				BEAEAC0BD579D51E6E5DDAC0 /* Products */,
+				4B1471E055DDF9BB124CD7DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		103ADEB5E9107A3C82469E55 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6DD161C1FB944644B77D103E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4B1471E055DDF9BB124CD7DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88793310297F837925A99906 /* Pods-DYSRootViewController_Example */,
+				5238D0A7CFC2A9AD96D21988 /* Pods-DYSRootViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5238D0A7CFC2A9AD96D21988 /* Pods-DYSRootViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35F2411AE3898DBBEA77DBEE /* Info.plist */,
+				0CCAE64327E20E1984900742 /* Pods-DYSRootViewController_Tests.modulemap */,
+				37F9B9F4210525F9988F2FCC /* Pods-DYSRootViewController_Tests-acknowledgements.markdown */,
+				195F8C14A753DFAF7D4F1508 /* Pods-DYSRootViewController_Tests-acknowledgements.plist */,
+				88D08490F24DB97938B0395B /* Pods-DYSRootViewController_Tests-dummy.m */,
+				8711970544A6FB0F219F6029 /* Pods-DYSRootViewController_Tests-environment.h */,
+				F068D522B22A2E70B9210480 /* Pods-DYSRootViewController_Tests-frameworks.sh */,
+				4A8BF70F231A5F83255FAB22 /* Pods-DYSRootViewController_Tests-resources.sh */,
+				1EDE8403BCBBD47EF52A1740 /* Pods-DYSRootViewController_Tests-umbrella.h */,
+				801D50EF67A207154912A5B2 /* Pods-DYSRootViewController_Tests.debug.xcconfig */,
+				B70E0BD44692B81DD20E0C7C /* Pods-DYSRootViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-DYSRootViewController_Tests";
+			path = "Target Support Files/Pods-DYSRootViewController_Tests";
+			sourceTree = "<group>";
+		};
+		5D7180784BE4F7CE4320C771 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B99B46A44E59E9FACF025A3D /* DYSRootViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6513584C4A81C6607EED5F07 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F25A0E11E5D4344DC92C4E12 /* Foundation.framework */,
+				636538FEFD18FF5EB3056502 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DD161C1FB944644B77D103E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7926ABDB0FB321205F2AB3C9 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7228F0DDE7B81B7A3C490E7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0AC601DE4CE00DFFA77B8 /* Info.plist */,
+				BDAB5A96327B8CD7FEFA5619 /* Info.plist */,
+				BA456105557CA9370FFA8076 /* Pods-DYSRootViewController_Example-DYSRootViewController.modulemap */,
+				2A4C3EEE5E50FF8A62C7B344 /* Pods-DYSRootViewController_Example-DYSRootViewController.xcconfig */,
+				F5BF3383259A4C4BFD98E318 /* Pods-DYSRootViewController_Example-DYSRootViewController-Private.xcconfig */,
+				9B8DACD706215EF45C7DFB55 /* Pods-DYSRootViewController_Example-DYSRootViewController-dummy.m */,
+				891C0ABBED7F7B5E4AB1C367 /* Pods-DYSRootViewController_Example-DYSRootViewController-prefix.pch */,
+				1E872AEABA73AF987934711D /* Pods-DYSRootViewController_Example-DYSRootViewController-umbrella.h */,
+				91D06FEF6168DF2A20876745 /* Pods-DYSRootViewController_Tests-DYSRootViewController.modulemap */,
+				D53701734AD66D4217CF2387 /* Pods-DYSRootViewController_Tests-DYSRootViewController.xcconfig */,
+				2C072574EB8770A0E27C78F3 /* Pods-DYSRootViewController_Tests-DYSRootViewController-Private.xcconfig */,
+				E3E39359F74EB55BDA7A2D5C /* Pods-DYSRootViewController_Tests-DYSRootViewController-dummy.m */,
+				35AF8CD2753CE6FB51BCD05C /* Pods-DYSRootViewController_Tests-DYSRootViewController-prefix.pch */,
+				FF88D4B1333D2D5F62AB2B35 /* Pods-DYSRootViewController_Tests-DYSRootViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DYSRootViewController_Example-DYSRootViewController";
+			sourceTree = "<group>";
+		};
+		88793310297F837925A99906 /* Pods-DYSRootViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5396AA7A9FBE5171DBF106C1 /* Info.plist */,
+				2888212F7A2007FFE6083109 /* Pods-DYSRootViewController_Example.modulemap */,
+				35BEF23D430C58BBF6F65E67 /* Pods-DYSRootViewController_Example-acknowledgements.markdown */,
+				765546FB89E86F54258CAF77 /* Pods-DYSRootViewController_Example-acknowledgements.plist */,
+				77AF96E97D71524C148F61CA /* Pods-DYSRootViewController_Example-dummy.m */,
+				C0EB9CB0BFE7BEC9131FAC54 /* Pods-DYSRootViewController_Example-environment.h */,
+				1C2398240F9E4EF3F2CDDFCF /* Pods-DYSRootViewController_Example-frameworks.sh */,
+				304383681F590619965DC5B1 /* Pods-DYSRootViewController_Example-resources.sh */,
+				2702F627EF97EB26B87FFCC1 /* Pods-DYSRootViewController_Example-umbrella.h */,
+				2382C3D5C1689F7E20619EB0 /* Pods-DYSRootViewController_Example.debug.xcconfig */,
+				67C9B1F6C93A35B38BA88436 /* Pods-DYSRootViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-DYSRootViewController_Example";
+			path = "Target Support Files/Pods-DYSRootViewController_Example";
+			sourceTree = "<group>";
+		};
+		88ED8FFF6AF50AA2D457CF80 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8B02BFF848F2822C91890DB0 /* FBSnapshotTestCase.h */,
+				50B155B57AC949A0FC13C5F6 /* FBSnapshotTestCase.m */,
+				B5B9179DD96B8472AEA1F647 /* FBSnapshotTestCasePlatform.h */,
+				B5A1B65B56C918153320B53C /* FBSnapshotTestCasePlatform.m */,
+				7CA5B4CF73D2EAD09C788EAA /* FBSnapshotTestController.h */,
+				8EDC8351E108385D1E56B73C /* FBSnapshotTestController.m */,
+				EC1B85D89C16E443E5B0FC3D /* UIImage+Compare.h */,
+				537CCCB6C2709E37838A94DB /* UIImage+Compare.m */,
+				2A4E9C43BFAEFDD206DC4DCD /* UIImage+Diff.h */,
+				13013A585EAADF87E7D65A59 /* UIImage+Diff.m */,
+				3D5FF4A0799F6AB2C19F3D7B /* UIImage+Snapshot.h */,
+				9A6B68BD8D42297B0E81B06A /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		91E401E0A992394684FB7AE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAF648CB361E66E332004D89 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD32E20101CCA2C26E8281F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6513584C4A81C6607EED5F07 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B93ACAD9A18DAB016B7D38B1 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB4C7F465FD384833B195A /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B99B46A44E59E9FACF025A3D /* DYSRootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				103ADEB5E9107A3C82469E55 /* Pod */,
+				7228F0DDE7B81B7A3C490E7A /* Support Files */,
+			);
+			name = DYSRootViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BEAEAC0BD579D51E6E5DDAC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E985DA2E3B760EBD5E098E9D /* DYSRootViewController.bundle */,
+				50E9021B15AC4C199CC6282F /* DYSRootViewController.bundle */,
+				5622F18862115224EB0FD119 /* DYSRootViewController.framework */,
+				754E84E4B9C5E38F6AD446A8 /* DYSRootViewController.framework */,
+				D76D8FC137EE1D1711FA1BE4 /* FBSnapshotTestCase.framework */,
+				871797041E7F36A5B2B070DD /* Pods_DYSRootViewController_Example.framework */,
+				482C118D56964298D92055DD /* Pods_DYSRootViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1636C167D1C8B669141A08A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC545BA6969A6225A5D0E2A /* Info.plist */,
+				94D9F3F00F703E4D1FD680E5 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase.modulemap */,
+				BAA77375BCB4157A87BEBF3D /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase.xcconfig */,
+				7AC3033169E251D551B72D2B /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-Private.xcconfig */,
+				D09FA965F3049E3B76CE8321 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-dummy.m */,
+				5AD74E5C53EC4B68FE4EB124 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-prefix.pch */,
+				4C6D6601F81AD72C8FA0C7E4 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-DYSRootViewController_Tests-FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		FAF648CB361E66E332004D89 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				88ED8FFF6AF50AA2D457CF80 /* Core */,
+				F1636C167D1C8B669141A08A /* Support Files */,
+				B93ACAD9A18DAB016B7D38B1 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00D858C39482F16021575973 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C02C7CF444F1E21BF9531D0 /* FBSnapshotTestCase.h in Headers */,
+				B84D545102E84B8673E86C4D /* FBSnapshotTestCasePlatform.h in Headers */,
+				27521FB28F53058B57C9BDD4 /* FBSnapshotTestController.h in Headers */,
+				2D489D9961203CBDCA151626 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-umbrella.h in Headers */,
+				B6DA875090712F9C2294C362 /* UIImage+Compare.h in Headers */,
+				71C16D0929D8A371A9E90E1A /* UIImage+Diff.h in Headers */,
+				5FCFD98824A630DB4184CBD9 /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC83C70DA3C565B0EC622F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB330AD16F3C951DA65E4C21 /* Pods-DYSRootViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDCE6505E150365C76AD964 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142D4A540FA8D39047D6DB10 /* Pods-DYSRootViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CF451C683C350C5838E80B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCD7A7AD4D2BBA42C029400 /* Pods-DYSRootViewController_Tests-DYSRootViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2A509C616F982446FE7018 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C18628CD81AE9EBCD1EFE1 /* Pods-DYSRootViewController_Example-DYSRootViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1878C27803550BA781808114 /* Pods-DYSRootViewController_Tests-DYSRootViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3296E92957715CF316B9241F /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Tests-DYSRootViewController" */;
+			buildPhases = (
+				693CC43B0CE9AB20CF1164DA /* Sources */,
+				9363B5E4CE2997C10B9100C0 /* Frameworks */,
+				016403A4973C73B737FD9821 /* Resources */,
+				64CF451C683C350C5838E80B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C395D301BBBF85AA290941F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYSRootViewController_Tests-DYSRootViewController";
+			productName = "Pods-DYSRootViewController_Tests-DYSRootViewController";
+			productReference = 754E84E4B9C5E38F6AD446A8 /* DYSRootViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27CBDC381867D2F7EF080F36 /* Pods-DYSRootViewController_Example-DYSRootViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C74ADEA19CE027C973AF84 /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Example-DYSRootViewController" */;
+			buildPhases = (
+				D26609A22FABC628B421133E /* Sources */,
+				3565B7F59757AB415F3457B9 /* Frameworks */,
+				A924EB64666AD200F40D8BBE /* Resources */,
+				6A2A509C616F982446FE7018 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18757A58C850E7B4EF5C2E0D /* PBXTargetDependency */,
+			);
+			name = "Pods-DYSRootViewController_Example-DYSRootViewController";
+			productName = "Pods-DYSRootViewController_Example-DYSRootViewController";
+			productReference = 5622F18862115224EB0FD119 /* DYSRootViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2AA3DD8FBDF149605E12E6E2 /* Pods-DYSRootViewController_Tests-DYSRootViewController-DYSRootViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69833EE02AB336BD02169E75 /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Tests-DYSRootViewController-DYSRootViewController" */;
+			buildPhases = (
+				C4565C9ED7504E92F13E8777 /* Sources */,
+				1FE415D2C28734E263AE251F /* Frameworks */,
+				B04861B4872D5322784C79F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DYSRootViewController_Tests-DYSRootViewController-DYSRootViewController";
+			productName = "Pods-DYSRootViewController_Tests-DYSRootViewController-DYSRootViewController";
+			productReference = E985DA2E3B760EBD5E098E9D /* DYSRootViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		58FC4CBDF1BDA710D7E9A118 /* Pods-DYSRootViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A17BAD574F43DC798A2B29 /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Tests" */;
+			buildPhases = (
+				4242406F316C36238B7D5155 /* Sources */,
+				C66683FDD120249D53DAB033 /* Frameworks */,
+				4EDCE6505E150365C76AD964 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496289669268167B925CD388 /* PBXTargetDependency */,
+				975CF5DF4F95D0297DF27CDE /* PBXTargetDependency */,
+			);
+			name = "Pods-DYSRootViewController_Tests";
+			productName = "Pods-DYSRootViewController_Tests";
+			productReference = 482C118D56964298D92055DD /* Pods_DYSRootViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4A5E149DAB4263F2AF642B2 /* Pods-DYSRootViewController_Example-DYSRootViewController-DYSRootViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65A46D257E01A2C84C9CB09 /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Example-DYSRootViewController-DYSRootViewController" */;
+			buildPhases = (
+				E4F884F9762BCA85547A3F1A /* Sources */,
+				C548AA66A76D9064FD022D3A /* Frameworks */,
+				15DA15AF1D963EF49B740408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DYSRootViewController_Example-DYSRootViewController-DYSRootViewController";
+			productName = "Pods-DYSRootViewController_Example-DYSRootViewController-DYSRootViewController";
+			productReference = 50E9021B15AC4C199CC6282F /* DYSRootViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B88CAB82FBAD81D36A8D91FD /* Pods-DYSRootViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3416AE905B1087898EA18F /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Example" */;
+			buildPhases = (
+				6C39E7223AD723BAC02740C6 /* Sources */,
+				C245E0B03251B03B2B45FEEF /* Frameworks */,
+				3AC83C70DA3C565B0EC622F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4D84250B284DFE75014223F /* PBXTargetDependency */,
+			);
+			name = "Pods-DYSRootViewController_Example";
+			productName = "Pods-DYSRootViewController_Example";
+			productReference = 871797041E7F36A5B2B070DD /* Pods_DYSRootViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C17D8F29E9B2031233E6BB1E /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A64EB540A316F8241B783AD /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Tests-FBSnapshotTestCase" */;
+			buildPhases = (
+				09684AB284864D59CDE5D20A /* Sources */,
+				5FCE6699D10B5BD5A1534C50 /* Frameworks */,
+				00D858C39482F16021575973 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DYSRootViewController_Tests-FBSnapshotTestCase";
+			productName = "Pods-DYSRootViewController_Tests-FBSnapshotTestCase";
+			productReference = D76D8FC137EE1D1711FA1BE4 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ADD7733C23AAC2B74DF7F93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 914F6A722BE4155BB2A1293F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0527DBDFC962D67EBBE8BC50;
+			productRefGroup = BEAEAC0BD579D51E6E5DDAC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B88CAB82FBAD81D36A8D91FD /* Pods-DYSRootViewController_Example */,
+				27CBDC381867D2F7EF080F36 /* Pods-DYSRootViewController_Example-DYSRootViewController */,
+				A4A5E149DAB4263F2AF642B2 /* Pods-DYSRootViewController_Example-DYSRootViewController-DYSRootViewController */,
+				58FC4CBDF1BDA710D7E9A118 /* Pods-DYSRootViewController_Tests */,
+				1878C27803550BA781808114 /* Pods-DYSRootViewController_Tests-DYSRootViewController */,
+				2AA3DD8FBDF149605E12E6E2 /* Pods-DYSRootViewController_Tests-DYSRootViewController-DYSRootViewController */,
+				C17D8F29E9B2031233E6BB1E /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016403A4973C73B737FD9821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34CB3CF4ADB0CD8103BCAC5 /* DYSRootViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DA15AF1D963EF49B740408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A924EB64666AD200F40D8BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366F0EAA7F2E5874D983EAB5 /* DYSRootViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04861B4872D5322784C79F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09684AB284864D59CDE5D20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA431063665FA8AD8B492F6 /* FBSnapshotTestCase.m in Sources */,
+				40D2E21629583F4416AEB8BB /* FBSnapshotTestCasePlatform.m in Sources */,
+				6FBA7F4066DD352CBB993E53 /* FBSnapshotTestController.m in Sources */,
+				C24F10F38180529B74A98834 /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-dummy.m in Sources */,
+				317468D071CA7D9D37CA944B /* SwiftSupport.swift in Sources */,
+				CACC6DA1AC52A5BAC9CB7B8D /* UIImage+Compare.m in Sources */,
+				A97F61B7FCC28C07A7EF6B01 /* UIImage+Diff.m in Sources */,
+				7927CCE88C743C3A9CE9A4C4 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4242406F316C36238B7D5155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87EE321654926FC641696AF /* Pods-DYSRootViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693CC43B0CE9AB20CF1164DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D21E2F8A28E24FBE83E3905 /* Pods-DYSRootViewController_Tests-DYSRootViewController-dummy.m in Sources */,
+				B7B454712234EB55041BB3E0 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C39E7223AD723BAC02740C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC07F039708AE6C01DD02C5 /* Pods-DYSRootViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4565C9ED7504E92F13E8777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26609A22FABC628B421133E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEACDF1E5E3B1FE951446CC /* Pods-DYSRootViewController_Example-DYSRootViewController-dummy.m in Sources */,
+				822D0856875C2AF434F18F1C /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F884F9762BCA85547A3F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18757A58C850E7B4EF5C2E0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYSRootViewController_Example-DYSRootViewController-DYSRootViewController";
+			target = A4A5E149DAB4263F2AF642B2 /* Pods-DYSRootViewController_Example-DYSRootViewController-DYSRootViewController */;
+			targetProxy = 664888840BB5BBF1C204D4AE /* PBXContainerItemProxy */;
+		};
+		496289669268167B925CD388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYSRootViewController_Tests-DYSRootViewController";
+			target = 1878C27803550BA781808114 /* Pods-DYSRootViewController_Tests-DYSRootViewController */;
+			targetProxy = 246F53CB5CCB4DCBD1C3D4F7 /* PBXContainerItemProxy */;
+		};
+		975CF5DF4F95D0297DF27CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYSRootViewController_Tests-FBSnapshotTestCase";
+			target = C17D8F29E9B2031233E6BB1E /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase */;
+			targetProxy = DA5C689E3C3D8591A93D92D8 /* PBXContainerItemProxy */;
+		};
+		B4D84250B284DFE75014223F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYSRootViewController_Example-DYSRootViewController";
+			target = 27CBDC381867D2F7EF080F36 /* Pods-DYSRootViewController_Example-DYSRootViewController */;
+			targetProxy = 6CB1CE70DBFEC6C95A460C0C /* PBXContainerItemProxy */;
+		};
+		C395D301BBBF85AA290941F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYSRootViewController_Tests-DYSRootViewController-DYSRootViewController";
+			target = 2AA3DD8FBDF149605E12E6E2 /* Pods-DYSRootViewController_Tests-DYSRootViewController-DYSRootViewController */;
+			targetProxy = 062015F2A13791CC11965823 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC0E9EFB04D5ADAF0E08AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C072574EB8770A0E27C78F3 /* Pods-DYSRootViewController_Tests-DYSRootViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYSRootViewController_Tests-DYSRootViewController/Pods-DYSRootViewController_Tests-DYSRootViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSRootViewController_Tests-DYSRootViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSRootViewController_Tests-DYSRootViewController/Pods-DYSRootViewController_Tests-DYSRootViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DYSRootViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FE62FF922E6A3328D68D55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70E0BD44692B81DD20E0C7C /* Pods-DYSRootViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSRootViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSRootViewController_Tests/Pods-DYSRootViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYSRootViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		242A0AE85763FC81CD9289DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801D50EF67A207154912A5B2 /* Pods-DYSRootViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSRootViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSRootViewController_Tests/Pods-DYSRootViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYSRootViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FC0A2F58E5A655BBBE7795B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BF3383259A4C4BFD98E318 /* Pods-DYSRootViewController_Example-DYSRootViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYSRootViewController_Example-DYSRootViewController/Pods-DYSRootViewController_Example-DYSRootViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSRootViewController_Example-DYSRootViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSRootViewController_Example-DYSRootViewController/Pods-DYSRootViewController_Example-DYSRootViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DYSRootViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		593FCE687F0A719E43B1102F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC3033169E251D551B72D2B /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYSRootViewController_Tests-FBSnapshotTestCase/Pods-DYSRootViewController_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSRootViewController_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSRootViewController_Tests-FBSnapshotTestCase/Pods-DYSRootViewController_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70CBD44BB174B8F8022C2A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2382C3D5C1689F7E20619EB0 /* Pods-DYSRootViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSRootViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSRootViewController_Example/Pods-DYSRootViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYSRootViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A83916747894E5DF45E78F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BF3383259A4C4BFD98E318 /* Pods-DYSRootViewController_Example-DYSRootViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYSRootViewController_Example-DYSRootViewController/Pods-DYSRootViewController_Example-DYSRootViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSRootViewController_Example-DYSRootViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSRootViewController_Example-DYSRootViewController/Pods-DYSRootViewController_Example-DYSRootViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DYSRootViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		891F49CC3F1FD196ABBBDF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DDF3AF03421D7A8ED0C8704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C9B1F6C93A35B38BA88436 /* Pods-DYSRootViewController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSRootViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSRootViewController_Example/Pods-DYSRootViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYSRootViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		943B6F67CF563874A1DAB694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C072574EB8770A0E27C78F3 /* Pods-DYSRootViewController_Tests-DYSRootViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYSRootViewController_Tests-DYSRootViewController/Pods-DYSRootViewController_Tests-DYSRootViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSRootViewController_Tests-DYSRootViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSRootViewController_Tests-DYSRootViewController/Pods-DYSRootViewController_Tests-DYSRootViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DYSRootViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F3375A77825F2B22C0B0235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC3033169E251D551B72D2B /* Pods-DYSRootViewController_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYSRootViewController_Tests-FBSnapshotTestCase/Pods-DYSRootViewController_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSRootViewController_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSRootViewController_Tests-FBSnapshotTestCase/Pods-DYSRootViewController_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0B775F18DDBF189CFE144AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C072574EB8770A0E27C78F3 /* Pods-DYSRootViewController_Tests-DYSRootViewController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYSRootViewController_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYSRootViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A3F593CB39B155D464E62ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BF3383259A4C4BFD98E318 /* Pods-DYSRootViewController_Example-DYSRootViewController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYSRootViewController_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYSRootViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B79E46332F57C49EA78825B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE9E71356E94E0ED8D0E600E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BF3383259A4C4BFD98E318 /* Pods-DYSRootViewController_Example-DYSRootViewController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYSRootViewController_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYSRootViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EE109DD7B26FFA6CDCDFAC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C072574EB8770A0E27C78F3 /* Pods-DYSRootViewController_Tests-DYSRootViewController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYSRootViewController_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYSRootViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A64EB540A316F8241B783AD /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Tests-FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3375A77825F2B22C0B0235 /* Debug */,
+				593FCE687F0A719E43B1102F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C74ADEA19CE027C973AF84 /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Example-DYSRootViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A83916747894E5DF45E78F3 /* Debug */,
+				2FC0A2F58E5A655BBBE7795B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3296E92957715CF316B9241F /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Tests-DYSRootViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC0E9EFB04D5ADAF0E08AA1 /* Debug */,
+				943B6F67CF563874A1DAB694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69833EE02AB336BD02169E75 /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Tests-DYSRootViewController-DYSRootViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B775F18DDBF189CFE144AD /* Debug */,
+				EE109DD7B26FFA6CDCDFAC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914F6A722BE4155BB2A1293F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891F49CC3F1FD196ABBBDF77 /* Debug */,
+				B79E46332F57C49EA78825B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65A46D257E01A2C84C9CB09 /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Example-DYSRootViewController-DYSRootViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9E71356E94E0ED8D0E600E /* Debug */,
+				A3F593CB39B155D464E62ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3416AE905B1087898EA18F /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CBD44BB174B8F8022C2A56 /* Debug */,
+				8DDF3AF03421D7A8ED0C8704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A17BAD574F43DC798A2B29 /* Build configuration list for PBXNativeTarget "Pods-DYSRootViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242A0AE85763FC81CD9289DB /* Debug */,
+				1FE62FF922E6A3328D68D55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ADD7733C23AAC2B74DF7F93 /* Project object */;
+}

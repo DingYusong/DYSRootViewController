@@ -1,0 +1,6 @@
+framework module DYSRootViewController {
+  umbrella header "Pods-DYSRootViewController_Example-DYSRootViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
