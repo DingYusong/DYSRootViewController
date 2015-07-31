@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4A5E149DAB4263F2AF642B2"
+               BlueprintIdentifier = "D1C48C0AF68BF4333324E741"
                BuildableName = "DYSRootViewController.bundle"
                BlueprintName = "Pods-DYSRootViewController_Example-DYSRootViewController-DYSRootViewController"
                ReferencedContainer = "container:Pods.xcodeproj">

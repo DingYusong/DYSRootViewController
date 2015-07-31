@@ -48,10 +48,18 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'DYSCategories.framework'
+  install_framework 'DYSHelpers.framework'
   install_framework 'DYSRootViewController.framework'
   install_framework 'FBSnapshotTestCase.framework'
+  install_framework 'MBProgressHUD.framework'
+  install_framework 'MJRefresh.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'DYSCategories.framework'
+  install_framework 'DYSHelpers.framework'
   install_framework 'DYSRootViewController.framework'
   install_framework 'FBSnapshotTestCase.framework'
+  install_framework 'MBProgressHUD.framework'
+  install_framework 'MJRefresh.framework'
 fi

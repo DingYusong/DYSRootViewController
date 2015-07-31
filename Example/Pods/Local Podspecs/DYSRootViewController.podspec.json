@@ -21,5 +21,16 @@
     "DYSRootViewController": [
       "Pod/Assets/*.png"
     ]
+  },
+  "dependencies": {
+    "MJRefresh": [
+      "~> 2.2.1"
+    ],
+    "DYSHelpers": [
+
+    ],
+    "MBProgressHUD": [
+      "~> 0.9.1"
+    ]
   }
 }

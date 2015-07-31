@@ -1,10 +1,18 @@
 PODS:
-  - DYSRootViewController (0.1.0)
+  - DYSCategories (0.1.0)
+  - DYSHelpers (1.0.0):
+    - DYSCategories (~> 0.1.0)
+  - DYSRootViewController (0.1.0):
+    - DYSHelpers
+    - MBProgressHUD (~> 0.9.1)
+    - MJRefresh (~> 2.2.1)
   - FBSnapshotTestCase (2.0.3):
     - FBSnapshotTestCase/SwiftSupport (= 2.0.3)
   - FBSnapshotTestCase/Core (2.0.3)
   - FBSnapshotTestCase/SwiftSupport (2.0.3):
     - FBSnapshotTestCase/Core
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (2.2.1)
 
 DEPENDENCIES:
   - DYSRootViewController (from `../`)
@@ -15,7 +23,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DYSRootViewController: 72618a6fb4c65344cc4ea5a8db7b4c2e0d304180
+  DYSCategories: 671af553fc5af000d73024ce97a294f26ac796ab
+  DYSHelpers: 88568caad3983f74c08b39edee723d558058c188
+  DYSRootViewController: 6b419a8bc04cdd0af96de43f58b532251a080162
   FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: c3fa0387e8e97a11a9666639d2f815607edd1c2f
 
 COCOAPODS: 0.37.2
