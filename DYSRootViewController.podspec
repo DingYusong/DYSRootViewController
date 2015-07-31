@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "DYSRootViewController"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DYSRootViewController."
+  s.summary          = "DYSRootViewController."
   s.description      = <<-DESC
-                       An optional longer description of DYSRootViewController
+                       DYSRootViewController
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DYSRootViewController"
+  s.homepage         = "https://github.com/DingYusong/DYSRootViewController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "丁玉松" => "dys90@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DYSRootViewController.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/DingYusong/DYSRootViewController.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
